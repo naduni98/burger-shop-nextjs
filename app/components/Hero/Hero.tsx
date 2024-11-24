@@ -40,7 +40,7 @@ const Hero = () => {
         showDots={false}
       >
         {/* 1st Slide */}
-        <div className="w-[100%] h-[85vh] flex items-center justify-center bg-blue-950 clip_path">
+        <div className="w-[100%] h-[85vh] flex items-center justify-center bg-blue-950 md:clip_path">
           <div className="flex flex-col md:flex-row items-center justify-center md:space-x-6 px-24">
             <Image src={BurgerImg1} alt="burger" className="w-[400px] md:w-[300px] lg:w-[400px]" />
 
